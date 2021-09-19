@@ -1,0 +1,27 @@
+.hotrecommend {
+  width: 100%;
+}
+.hotrecommend .hotCenterrecommend {
+  width: 980px;
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
+  padding: 20px 20px 40px;
+  background-color: #fff;
+  border-left: 1px solid #ccc;
+}
+.hotrecommend .hotCenterrecommend .hotcenterleft {
+  width: 729px;
+  height: 100%;
+  border-right: 1px solid #ccc;
+  padding-right: 20px;
+}
+.hotrecommend .hotCenterrecommend .hotcenterleft .cover-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.hotrecommend .hotCenterrecommend .hotcenterright {
+  width: 251px;
+  height: 100%;
+}

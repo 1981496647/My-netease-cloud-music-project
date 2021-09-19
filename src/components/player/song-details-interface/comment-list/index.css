@@ -1,0 +1,50 @@
+.comment-item {
+  width: 100%;
+  font-size: 12px;
+  line-height: 20px;
+  justify-content: space-between;
+  padding: 15px 0;
+  border-bottom: 1px solid #ccc;
+}
+.comment-item .user-comment {
+  display: flex;
+}
+.comment-item .user-comment .userPic img {
+  width: 50px;
+}
+.comment-item .user-comment .userText {
+  width: 581px;
+  padding: 0 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.comment-item .user-comment .userText .username {
+  color: #0c73c2;
+}
+.comment-item .user-comment .userText .time-comment {
+  padding: 15px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+.comment-item .user-comment .userText .parameters {
+  display: flex;
+  align-items: flex-end;
+}
+.comment-item .user-comment .userText .parameters .like-comment {
+  width: 15px;
+  height: 14px;
+  background: url("../../../../assets/img/icon2.png") no-repeat -150px 0px;
+  margin-right: 5px;
+  margin-bottom: 3px;
+}
+.comment-item .user-comment .userText .parameters .count {
+  margin-right: 5px;
+  cursor: pointer;
+}
+.comment-item .user-comment .userText .parameters .count:hover {
+  text-decoration: underline;
+}
+.comment-item .user-comment .userText .parameters .l {
+  margin-right: 5px;
+}

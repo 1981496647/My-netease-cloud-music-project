@@ -1,0 +1,142 @@
+.playlist {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.playlist .playlist-left {
+  width: 558px;
+  height: 301px;
+}
+.playlist .playlist-left .left-list-title {
+  width: 100%;
+  height: 41px;
+  display: flex;
+  align-items: center;
+  padding: 0 25px;
+  background: url("../../../assets/img/playlist_bg.png") no-repeat -2px;
+}
+.playlist .playlist-left .left-list-title .left-list-text {
+  color: white;
+  flex: 1;
+  font-size: 14px;
+  font-weight: 600;
+}
+.playlist .playlist-left .left-list-title .left-a {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+.playlist .playlist-left .left-list-title .left-a span {
+  margin-right: 5px;
+  width: 16px;
+  height: 16px;
+  background: url("../../../assets/img/playlist.png") no-repeat -24px 0;
+}
+.playlist .playlist-left .left-list-title .left-a p {
+  color: #ccc;
+}
+.playlist .playlist-left .left-list-title .left-a:hover span {
+  background: url("../../../assets/img/playlist.png") no-repeat -24px -20px;
+}
+.playlist .playlist-left .left-list-title .left-a:hover p {
+  color: white;
+}
+.playlist .playlist-left .left-list-title .left-a-clear {
+  font-size: 12px;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+}
+.playlist .playlist-left .left-list-title .left-a-clear span {
+  width: 16px;
+  height: 16px;
+  background: url("../../../assets/img/playlist.png") no-repeat -51px 0;
+  margin-right: 5px;
+}
+.playlist .playlist-left .left-list-title .left-a-clear p {
+  color: #ccc;
+}
+.playlist .playlist-left .left-list-title .left-a-clear:hover span {
+  background: url("../../../assets/img/playlist.png") no-repeat -51px -20px;
+}
+.playlist .playlist-left .left-list-title .left-a-clear:hover p {
+  color: white;
+}
+.playlist .playlist-left .list-detail {
+  width: 100%;
+  height: 260px;
+  background: #333;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.playlist .playlist-left .list-detail::-webkit-scrollbar {
+  width: 6px;
+  height: 260px;
+  background: #000;
+}
+.playlist .playlist-left .list-detail::-webkit-scrollbar-thumb {
+  width: 6px;
+  height: 221px;
+  background: #868686;
+  border: 1px solid #a6a6a6;
+  border-radius: 5px;
+  opacity: 0.8;
+}
+.playlist .playlist-right {
+  width: 428px;
+  background: #333;
+  height: 301px;
+}
+.playlist .playlist-right .playlist-right-title {
+  width: 100%;
+  height: 41px;
+  background: url("../../../assets/img/playlist_bg.png") no-repeat -5px 0px;
+  color: white;
+  text-align: center;
+  line-height: 41px;
+  font-size: 14px;
+}
+.playlist .playlist-right .playlist-lyric {
+  height: 260px;
+  width: 100%;
+  overflow-y: scroll;
+  color: white;
+  position: relative;
+}
+.playlist .playlist-right .playlist-lyric .pos-lyric {
+  position: absolute;
+  width: 354px;
+  height: 219px;
+  background-color: yellow;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.playlist .playlist-right .playlist-lyric p {
+  font-size: 12px;
+  text-align: center;
+  height: 32px;
+  line-height: 32px;
+  color: #989898;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.playlist .playlist-right .playlist-lyric .transfromY {
+  color: white;
+  font-size: 14px;
+}
+.playlist .playlist-right .playlist-lyric::-webkit-scrollbar {
+  width: 6px;
+  background-color: #000;
+}
+.playlist .playlist-right .playlist-lyric::-webkit-scrollbar-thumb {
+  width: 6px;
+  background-color: #868686;
+  border: 1px solid #a6a6a6;
+  opacity: 0.8;
+  border-radius: 5px;
+  height: 21px;
+}

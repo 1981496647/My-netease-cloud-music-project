@@ -1,0 +1,41 @@
+.login {
+  width: 530px;
+  height: 333px;
+  background: #fff;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  box-shadow: 1px 1px 1px #333;
+  border: 1px solid #ccc;
+}
+.login .title {
+  width: 100%;
+  height: 38px;
+  background: #333;
+  font-size: 14px;
+  color: white;
+  font-weight: 600;
+  line-height: 38px;
+  padding: 0 16px;
+  display: flex;
+  justify-content: space-between;
+}
+.login .img-QR {
+  display: flex;
+  width: 100%;
+  height: 295px;
+}
+.login .img-QR div {
+  flex: 1;
+}
+.login .img-QR .img {
+  text-align: center;
+}
+.login .img-QR .img img {
+  width: 50%;
+  padding-top: 10%;
+}
+.login .img-QR .Qr {
+  padding-top: 10%;
+}

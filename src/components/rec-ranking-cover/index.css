@@ -1,0 +1,111 @@
+.cover {
+  width: 100%;
+  height: 472px;
+}
+.cover .cover-item {
+  height: 352px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cover .cover-item .songItem {
+  width: 100%;
+  height: 32px;
+  font-size: 12px;
+  cursor: pointer;
+  line-height: 32px;
+  display: flex;
+  position: relative;
+}
+.cover .cover-item .songItem .songname {
+  width: 85px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.cover .cover-item .songItem span {
+  width: 35px;
+  height: 32px;
+  font-size: 16px;
+  text-align: center;
+  margin: 0 0 0 10px;
+}
+.cover .cover-item .songItem .icon-botton {
+  width: 82px;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+}
+.cover .cover-item .songItem .icon-botton div {
+  width: 17px;
+  height: 17px;
+  margin-right: 10px;
+  display: none;
+}
+.cover .cover-item .songItem .icon-botton :first-child {
+  background: url("../../assets/img/index.png") no-repeat -267px -268px;
+}
+.cover .cover-item .songItem .icon-botton :nth-child(2) {
+  background: url("../../assets/img/icon.png") no-repeat 2px -698px;
+}
+.cover .cover-item .songItem .icon-botton :last-child {
+  background: url("../../assets/img/index.png") no-repeat -297px -268px;
+}
+.cover .cover-item .songItem:hover .songname {
+  text-decoration: underline;
+  display: block;
+}
+.cover .cover-item .songItem:hover .icon-botton div {
+  display: block;
+}
+.cover .cover-title {
+  width: 100%;
+  height: 120px;
+  display: flex;
+}
+.cover .cover-title .covertitle {
+  flex: 1;
+  text-align: center;
+}
+.cover .cover-title .covertitle .pos-cover {
+  height: 100%;
+  width: 80px;
+  position: absolute;
+  background-color: red;
+  background: url("../../assets/img/coverall.png") no-repeat -145px -57px;
+  top: 0;
+}
+.cover .cover-title .image-cover {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin-top: 20px;
+}
+.cover .cover-title .image-cover img {
+  height: 100%;
+}
+.cover .cover-title .text-icon .cover-title-text {
+  margin-top: 27px;
+  margin-bottom: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: left;
+}
+.cover .cover-title .text-icon .icon-item {
+  display: flex;
+}
+.cover .cover-title .text-icon .icon-item :first-child {
+  width: 22px;
+  height: 22px;
+  background: url("../../assets/img/index.png") no-repeat -267px -265px;
+}
+.cover .cover-title .text-icon .icon-item :last-child {
+  width: 22px;
+  height: 22px;
+  background: yellow;
+  background: url("../../assets/img/index.png") no-repeat -295px -266px;
+}

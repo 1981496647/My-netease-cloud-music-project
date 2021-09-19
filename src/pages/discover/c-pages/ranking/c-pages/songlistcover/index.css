@@ -1,0 +1,121 @@
+.rankingcover {
+  width: 100%;
+  height: 158px;
+  display: flex;
+  align-items: center;
+}
+.rankingcover .coverimg {
+  width: 150px;
+  position: relative;
+  height: 150px;
+  z-index: 0;
+}
+.rankingcover .coverimg img {
+  width: 100%;
+}
+.rankingcover .coverimg .pos-coverimg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: red;
+  top: 0;
+  left: 0;
+  background: url("../../../../../../assets/img/coverall.png") no-repeat -230px -380px;
+  z-index: 3;
+}
+.rankingcover .Coverinfo {
+  height: 113px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 30px;
+}
+.rankingcover .Coverinfo .coverName {
+  font-size: 20px;
+}
+.rankingcover .Coverinfo .createtime {
+  font-size: 12px;
+  color: #666;
+}
+.rankingcover .btn-song {
+  display: flex;
+}
+.rankingcover .btn-song .song-player {
+  display: flex;
+}
+.rankingcover .btn-song .song-player :first-child {
+  width: 60px;
+  height: 31px;
+  background: url("../../../../../../assets/img/button2-play.png") no-repeat -8px -718px;
+  color: white;
+  font-size: 12px;
+  text-align: right;
+  padding-right: 10px;
+  line-height: 31px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  cursor: pointer;
+}
+.rankingcover .btn-song .song-player :last-child {
+  width: 31px;
+  height: 31px;
+  background: url("../../../../../../assets/img/button2-play.png") no-repeat 0 -1587px;
+}
+.rankingcover .btn-song .share {
+  width: 79px;
+  height: 31px;
+  background: url("../../../../../../assets/img/button2-play.png") no-repeat 0 -1225px;
+  margin-left: 5px;
+  color: #000;
+  font-size: 12px;
+  text-align: right;
+  line-height: 31px;
+  padding-right: 5px;
+  border-right: 1px solid #ccc;
+  border-radius: 5px;
+}
+.rankingcover .btn-song .favorite {
+  width: 89px;
+  height: 31px;
+  background: url("../../../../../../assets/img/button2-play.png") no-repeat 0 -977px;
+  margin-left: 5px;
+  color: #000;
+  font-size: 12px;
+  text-align: right;
+  line-height: 31px;
+  padding-right: 5px;
+  border-right: 1px solid #ccc;
+  border-radius: 5px;
+}
+.rankingcover .btn-song .download-play {
+  width: 59px;
+  height: 31px;
+  background: url("../../../../../../assets/img/button2-play.png") no-repeat 0 -2761px;
+  margin-left: 5px;
+  color: #000;
+  font-size: 12px;
+  text-align: right;
+  line-height: 31px;
+  padding-right: 5px;
+  border-right: 1px solid #ccc;
+  border-radius: 5px;
+}
+.rankingcover .btn-song .comment {
+  width: 80px;
+  height: 31px;
+  background: url("../../../../../../assets/img/button2-play.png") no-repeat 0 -1464px;
+  margin-left: 5px;
+  color: #000;
+  font-size: 12px;
+  text-align: right;
+  line-height: 31px;
+  padding-right: 5px;
+  border-right: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+}
+.rankingcover .btn-song .comment div {
+  width: 30px;
+  height: 31px;
+  background: url("../../../../../../assets/img/button2-play.png") no-repeat 0 -1464px;
+}

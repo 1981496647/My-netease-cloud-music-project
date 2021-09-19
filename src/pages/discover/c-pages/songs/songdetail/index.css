@@ -1,0 +1,35 @@
+.songdetails {
+  width: 100%;
+}
+.songdetails .songdetailscenter {
+  width: 982px;
+  margin: 0 auto;
+}
+.songdetails .songdetailscenter .left {
+  width: 709px;
+}
+.songdetails .songdetailscenter .left .titlerankingitem {
+  display: flex;
+}
+.songdetails .songdetailscenter .left .titlerankingitem div {
+  height: 38.5px;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  padding-left: 5px;
+  background: url("../../../../../assets/img/table.png");
+}
+.songdetails .songdetailscenter .left .titlerankingitem :first-child {
+  width: 77.5px;
+}
+.songdetails .songdetailscenter .left .titlerankingitem :nth-child(2) {
+  width: 326px;
+}
+.songdetails .songdetailscenter .left .titlerankingitem :nth-child(3) {
+  width: 90px;
+  text-align: center;
+}
+.songdetails .songdetailscenter .left .titlerankingitem :last-child {
+  width: 248.5px;
+}

@@ -1,0 +1,25 @@
+.RankingThemeHeader {
+  border-bottom: 2px solid #c20c0c;
+  padding: 5px 0;
+  display: flex;
+  margin-top: 50px;
+}
+.RankingThemeHeader :nth-child(2) {
+  flex: 1;
+  text-align: left;
+  margin-left: 15px;
+  font-size: 12px;
+  color: #999;
+  margin-top: 10px;
+}
+.RankingThemeHeader :last-child {
+  margin-top: 5px;
+  font-size: 12px;
+}
+.RankingThemeHeader :last-child span {
+  color: #c20c0c;
+  font-weight: 550;
+}
+.RankingThemeHeader .title {
+  font-size: 20px;
+}

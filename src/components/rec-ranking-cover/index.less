@@ -1,0 +1,116 @@
+.cover {
+  width: 100%;
+  height: 472px;
+  .cover-item {
+    height: 472px - 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .songItem {
+      width: 100%;
+      height: 32px;
+      font-size: 12px;
+      cursor: pointer;
+      line-height: 32px;
+    
+      display: flex;
+      position: relative;
+      .songname{
+        width: 85px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      span {
+        width: 35px;
+        height: 32px;
+        font-size: 16px;
+        text-align: center;
+        margin: 0 0 0 10px;
+      }
+      .icon-botton {
+        width: 82px;
+        position: absolute;
+        height: 100%;
+        top: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+
+        div {
+          width: 17px;
+          height: 17px;
+          margin-right: 10px;
+          display: none;
+        }
+        :first-child {
+          background: url("../../assets/img/index.png") no-repeat -267px -268px;
+        }
+        :nth-child(2) {
+          background: url("../../assets/img/icon.png") no-repeat 2px -698px;
+        }
+        :last-child {
+          background: url("../../assets/img/index.png") no-repeat -297px -268px;
+        }
+      }
+    }
+    .songItem:hover .songname {
+      text-decoration: underline;
+      display: block;
+    }
+    .songItem:hover .icon-botton div {
+      display: block;
+    }
+  }
+  .cover-title {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    .covertitle {
+      flex: 1;
+      text-align: center;
+      .pos-cover {
+        height: 100%;
+        width: 80px;
+        position: absolute;
+        background-color: red;
+        background: url("../../assets/img/coverall.png") no-repeat -145px -57px;
+        top: 0;
+      }
+    }
+    .image-cover {
+      position: relative;
+
+      width: 80px;
+      height: 80px;
+      margin-top: 20px;
+      img {
+        height: 100%;
+      }
+    }
+    .text-icon {
+      .cover-title-text {
+        margin-top: 27px;
+        margin-bottom: 12px;
+        font-weight: 600;
+        cursor: pointer;
+        font-size: 14px;
+        text-align: left;
+      }
+      .icon-item {
+        display: flex;
+        :first-child {
+          width: 22px;
+          height: 22px;
+          background: url("../../assets/img/index.png") no-repeat -267px -265px;
+        }
+        :last-child {
+          width: 22px;
+          height: 22px;
+          background: yellow;
+          background: url("../../assets/img/index.png") no-repeat -295px -266px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+.content-ranking {
+  width: 100%;
+  .ranking-center {
+    width: 982px;
+    margin: 0 auto;
+    display: flex;
+    background: #fff;
+    .ranking-left {
+      width: 240px;
+      border: 1px solid #ccc;
+      h2 {
+        margin-top: 40px;
+        font-size: 14px;
+        font-weight: 550;
+        margin-left: 20px;
+        padding-bottom: 20px;
+      }
+    }
+    .ranking-right {
+      width: 982px - 240px;
+      padding: 40px;
+      .rankinglist {
+        width: 100%;
+        .titleranking {
+          height: 38.5px;
+          width: 100%;
+          .titlerankingitem {
+            display: flex;
+            div {
+              height: 38.5px;
+              border: 1px solid #ccc;
+              display: flex;
+              align-items: center;
+              font-size: 12px;
+              padding-left: 5px;
+              background: url("../../../../assets/img/table.png");
+            }
+            :first-child {
+              width: 77.5px;
+            }
+            :nth-child(2) {
+              width: 326px;
+            }
+            :nth-child(3) {
+              width: 90px;
+            }
+            :last-child {
+              width: 982px - (240px + 77.5px + 326px + 90px);
+            }
+          }
+        }
+      }
+    }
+  }
+}

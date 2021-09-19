@@ -1,0 +1,96 @@
+.content {
+  height: 75px;
+  background-color: #242424;
+  position: relative;
+  .headerbottom {
+    background-color: #c20c0c;
+    height: 5px;
+  }
+  .navlink {
+    height: 70px;
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    .logo {
+      width: 157px;
+      height: 69px;
+      background-image: url("@/assets/img/LOGO.png");
+      padding-right: 20px;
+    }
+    .navlink-item {
+      display: flex;
+      margin-left: 15px;
+      .download {
+        position: relative;
+        .hot {
+          width: 28px;
+          height: 19px;
+          position: absolute;
+          top: 21px;
+          left: 105px;
+          width: 28px;
+          background: url("@/assets//img/LOGO.png") no-repeat -192px 0;
+        }
+      }
+      a {
+        padding: 0 20px;
+        display: block;
+        height: 70px;
+        line-height: 70px;
+        text-decoration: none;
+        color: #ccc;
+        font-size: 14px;
+      }
+      a:hover {
+        background-color: black;
+      }
+      .active {
+        background-color: black;
+        position: relative;
+        .cor {
+          width: 12px;
+          height: 7px;
+          position: absolute;
+          bottom: 1px;
+          left: 50%;
+          transform: translateX(-50%);
+          background-image: url("../../assets//img/LOGO.png");
+          background-position: -226px 0;
+        }
+      }
+    }
+
+    .headersearch {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 0 0 0 80px;
+      .headerinput {
+        border-radius: 15px;
+        width: 158px;
+        height: 30px;
+        font-size: 12px;
+      }
+      .headerbutton {
+        width: 90px;
+        height: 32px;
+        background-color: transparent;
+        font-size: 12px;
+        color: #ccc;
+        border-radius: 20px;
+        border: 1px solid #4f4f4f;
+        margin-left: 16px;
+      }
+      .headerregister {
+        color: #787878;
+        font-size: 13px;
+        cursor: pointer;
+        margin-left: 15px;
+      }
+      .headerregister:hover {
+        text-decoration: underline;
+        color: #999;
+      }
+    }
+  }
+}

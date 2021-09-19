@@ -1,0 +1,28 @@
+.cover-rank {
+  width: 240px;
+  height: 62px;
+  display: flex;
+  cursor: pointer;
+  padding-left: 20px;
+  font-size: 12px;
+  align-items: center;
+}
+.cover-rank .coverimg {
+  width: 40px;
+  height: 40px;
+}
+.cover-rank .coverimg img {
+  width: 100%;
+}
+.cover-rank .cover-info div {
+  margin: 5px 8px;
+}
+.cover-rank .cover-info .covername {
+  font-weight: 550;
+}
+.cover-rank .cover-info .updateFrequency {
+  color: #999;
+}
+.cover-rank:hover {
+  background: #f4f2f2;
+}

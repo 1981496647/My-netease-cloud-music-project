@@ -1,0 +1,7 @@
+export const CHANGE_TOP_BANNERS = "recommend/CHANGE_TOP_BANNERS";
+export const CHANGE_HOT_RECOMMENDS = "recommend/CHANGE_HOT_RECOMMENDS";
+export const CHANGE_NEW_ALBUM = "recommend/CHANGE_NEW_ALBUM";
+export const CHANGE_RANKING_FLY = "recommend/CHANGE_RANKING_FLY";
+export const CHANGE_RANKING_NEWSONGS = "recommend/CHANGE_RANKING_NEWSONGS";
+export const CHANGE_RANKING_ORIGIANL = "recommend/CHANGE_RANKING_ORIGIANL";
+export const CHANGE_LEARN_MORE = "recommend/CHANGE_LEARN_MORE"

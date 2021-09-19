@@ -1,0 +1,55 @@
+.content-ranking {
+  width: 100%;
+}
+.content-ranking .ranking-center {
+  width: 982px;
+  margin: 0 auto;
+  display: flex;
+  background: #fff;
+}
+.content-ranking .ranking-center .ranking-left {
+  width: 240px;
+  border: 1px solid #ccc;
+}
+.content-ranking .ranking-center .ranking-left h2 {
+  margin-top: 40px;
+  font-size: 14px;
+  font-weight: 550;
+  margin-left: 20px;
+  padding-bottom: 20px;
+}
+.content-ranking .ranking-center .ranking-right {
+  width: 742px;
+  padding: 40px;
+}
+.content-ranking .ranking-center .ranking-right .rankinglist {
+  width: 100%;
+}
+.content-ranking .ranking-center .ranking-right .rankinglist .titleranking {
+  height: 38.5px;
+  width: 100%;
+}
+.content-ranking .ranking-center .ranking-right .rankinglist .titleranking .titlerankingitem {
+  display: flex;
+}
+.content-ranking .ranking-center .ranking-right .rankinglist .titleranking .titlerankingitem div {
+  height: 38.5px;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  padding-left: 5px;
+  background: url("../../../../assets/img/table.png");
+}
+.content-ranking .ranking-center .ranking-right .rankinglist .titleranking .titlerankingitem :first-child {
+  width: 77.5px;
+}
+.content-ranking .ranking-center .ranking-right .rankinglist .titleranking .titlerankingitem :nth-child(2) {
+  width: 326px;
+}
+.content-ranking .ranking-center .ranking-right .rankinglist .titleranking .titlerankingitem :nth-child(3) {
+  width: 90px;
+}
+.content-ranking .ranking-center .ranking-right .rankinglist .titleranking .titlerankingitem :last-child {
+  width: 248.5px;
+}

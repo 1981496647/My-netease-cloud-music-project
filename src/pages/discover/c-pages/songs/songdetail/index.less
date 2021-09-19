@@ -1,0 +1,36 @@
+.songdetails {
+  width: 100%;
+  .songdetailscenter {
+    width: 982px;
+    margin: 0 auto;
+
+    .left {
+      width: 709px;
+      .titlerankingitem {
+        display: flex;
+        div {
+          height: 38.5px;
+          border: 1px solid #ccc;
+          display: flex;
+          align-items: center;
+          font-size: 12px;
+          padding-left: 5px;
+          background: url("../../../../../assets/img/table.png");
+        }
+        :first-child {
+          width: 77.5px;
+        }
+        :nth-child(2) {
+          width: 326px;
+        }
+        :nth-child(3) {
+          width: 90px;
+          text-align: center;
+        }
+        :last-child {
+          width: 982px - (240px + 77.5px + 326px + 90px);
+        }
+      }
+    }
+  }
+}

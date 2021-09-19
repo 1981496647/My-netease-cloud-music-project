@@ -1,0 +1,46 @@
+.info {
+  display: flex;
+  font-size: 12px;
+  padding: 6px 10px;
+}
+.info .index {
+  width: 63.6px;
+  display: flex;
+  align-items: center;
+  color: #999;
+}
+.info .image-rankcover {
+  width: 290px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.info .image-rankcover .play {
+  width: 17px;
+  height: 17px;
+  background: url("../../../../../../assets/img/table.png") no-repeat 0 -128px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.info .image-rankcover .infoname {
+  width: 273px;
+  margin-left: 5px;
+}
+.info .infotime {
+  width: 91px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 5px;
+}
+.info .infosinger {
+  width: 221px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

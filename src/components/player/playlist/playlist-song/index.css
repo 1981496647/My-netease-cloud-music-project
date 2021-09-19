@@ -1,0 +1,90 @@
+.playsong-url {
+  cursor: pointer;
+  width: 553px;
+  height: 28px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  padding: 0 5px 0 10px;
+}
+.playsong-url .song-icon {
+  width: 10px;
+  height: 13px;
+  background: url("../../../../assets/img/playlist.png") no-repeat -182px 2px;
+}
+.playsong-url .songname {
+  color: white;
+  flex: 1;
+  margin-left: 10px;
+}
+.playsong-url .song-icon-btn {
+  display: flex;
+  opacity: 0;
+}
+.playsong-url .song-icon-btn .icon-add {
+  width: 16px;
+  height: 16px;
+  background: url("../../../../assets/img/playlist.png") no-repeat -24px 0;
+}
+.playsong-url .song-icon-btn .icon-add:hover {
+  background: url("../../../../assets/img/playlist.png") no-repeat -24px -20px;
+}
+.playsong-url .song-icon-btn .icon-share {
+  width: 14px;
+  height: 16px;
+  background: url("../../../../assets/img/playlist.png") no-repeat 0 0;
+}
+.playsong-url .song-icon-btn .icon-share:hover {
+  background: url("../../../../assets/img/playlist.png") no-repeat 0 -20px;
+}
+.playsong-url .song-icon-btn .icon-dol {
+  width: 14px;
+  height: 16px;
+  background: url("../../../../assets/img/playlist.png") no-repeat -57px -50px;
+}
+.playsong-url .song-icon-btn .icon-dol:hover {
+  background: url("../../../../assets/img/playlist.png") no-repeat -80px -50px;
+}
+.playsong-url .song-icon-btn .icon-del {
+  width: 13px;
+  background: url("../../../../assets/img/playlist.png") no-repeat -51px 0;
+  height: 16px;
+}
+.playsong-url .song-icon-btn .icon-del:hover {
+  background: url("../../../../assets/img/playlist.png") no-repeat -51px -20px;
+}
+.playsong-url .artist-song-list {
+  color: white;
+  width: 80px;
+  height: 100%;
+  line-height: 28px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.playsong-url .song-time {
+  color: white;
+  width: 45px;
+  line-height: 28px;
+  text-align: center;
+  height: 28px;
+}
+.playsong-url .song-link {
+  width: 43px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.playsong-url .song-link span {
+  width: 14px;
+  height: 16px;
+  background: url("../../../../assets/img/playlist.png") no-repeat -80px -20px;
+}
+.playsong-url:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.playsong-url:hover .song-icon-btn {
+  opacity: 1;
+}

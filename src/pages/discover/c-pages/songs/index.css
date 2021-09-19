@@ -1,0 +1,20 @@
+.songs {
+  width: 100%;
+}
+.songs .songscenter {
+  width: 982px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 40px 50px;
+}
+.songs .songscenter .theme {
+  margin-bottom: 20px;
+}
+.songs .songscenter .songsbottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.songs .songscenter .songsbottom .caver {
+  margin-right: 10px;
+}

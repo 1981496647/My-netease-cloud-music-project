@@ -1,0 +1,46 @@
+.theme {
+  width: 100%;
+  height: 35px;
+  border-bottom: 2px solid #c10d0c;
+  display: flex;
+}
+.theme .left-theme {
+  display: flex;
+}
+.theme .left-theme .icon-theme {
+  background: url("../../assets/img/index.png") no-repeat -230px -160px;
+  height: 35px;
+  padding: 0 15px;
+}
+.theme .left-theme .title-theme {
+  font-size: 20px;
+}
+.theme .center-theme {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  margin-left: 22px;
+  justify-content: space-between;
+  width: 239px;
+}
+.theme .center-theme span {
+  padding: 0 10px;
+}
+.theme .center-theme .link-theme {
+  padding-bottom: 10px;
+  color: #999;
+}
+.theme .center-theme .link-theme a {
+  color: #999;
+}
+.theme .center-theme a:hover {
+  text-decoration: underline;
+}
+.theme .right-theme {
+  flex: 1;
+  text-align: right;
+  font-size: 12px;
+  color: #999;
+  line-height: 2;
+  cursor: pointer;
+}

@@ -1,0 +1,53 @@
+.comment-item {
+  width: 100%;
+  font-size: 12px;
+  line-height: 20px;
+  justify-content: space-between;
+  padding: 15px 0;
+  border-bottom: 1px solid #ccc;
+  .user-comment {
+    display: flex;
+    .userPic {
+      img {
+        width: 50px;
+      }
+    }
+    .userText {
+      width: 581px;
+      padding: 0 12px;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .username {
+        color: #0c73c2;
+      }
+      .time-comment {
+        padding: 15px 0 0 0;
+        display: flex;
+        justify-content: space-between;
+      }
+      .parameters {
+        display: flex;
+        align-items: flex-end;
+        .like-comment {
+          width: 15px;
+          height: 14px;
+          background: url("../../../../assets/img/icon2.png") no-repeat -150px 0px;
+          margin-right: 5px;
+          margin-bottom: 3px;
+        }
+        .count {
+            margin-right: 5px;
+            cursor: pointer;
+        }
+        .count:hover{
+            text-decoration: underline;
+        }
+        .l{
+            margin-right: 5px;
+        }
+      }
+    }
+  }
+}

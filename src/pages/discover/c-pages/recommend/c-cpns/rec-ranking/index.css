@@ -1,0 +1,46 @@
+.bilst {
+  width: 100%;
+  height: 472px;
+  background-color: black;
+  margin-top: 20px;
+  background: url("../../../../../../assets/img/index_bill.png");
+  display: flex;
+}
+.bilst .item-cover {
+  flex: 1;
+}
+.bilst .item-cover .learnmore {
+  font-size: 12px;
+  text-align: right;
+  padding: 5px 2px;
+  cursor: pointer;
+  color: #000;
+  display: block;
+}
+.bilst .item-cover .learnmore:hover {
+  text-decoration: underline;
+}
+.bilst .cover-left img {
+  margin-left: 5px;
+}
+.bilst .cover-left img + div {
+  left: 19px;
+}
+.bilst .cover-center img {
+  margin-left: 12px;
+}
+.bilst .cover-center img + div {
+  left: 22.5px;
+}
+.bilst .cover-center .cover-item {
+  margin-left: 5px;
+}
+.bilst .cover-right img {
+  margin-left: 22px;
+}
+.bilst .cover-right img + div {
+  left: 28px;
+}
+.bilst .cover-right .cover-item {
+  margin-left: 10px;
+}

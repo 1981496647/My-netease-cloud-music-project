@@ -1,0 +1,183 @@
+.playerbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 53px;
+  background: #333;
+  .playbercenter {
+    width: 980px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    .btns {
+      width: 137px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      div {
+        margin-right: 8px;
+      }
+      .prev {
+        width: 28px;
+        height: 28px;
+        background: url("../../assets/img/playbar.png") no-repeat 0 -130px;
+      }
+      .prev:hover {
+        background: url("../../assets/img/playbar.png") no-repeat -30px -130px;
+        cursor: pointer;
+      }
+      .playsong {
+        background: url("../../assets/img/playbar.png") no-repeat 0 -204px;
+        width: 36px;
+        height: 36px;
+      }
+      .playsong:hover {
+        background: url("../../assets/img/playbar.png") no-repeat -40px -204px;
+        cursor: pointer;
+      }
+      .nexts {
+        width: 28px;
+        height: 28px;
+        background: url("../../assets/img/playbar.png") no-repeat -80px -130px;
+      }
+      .nexts:hover {
+        background: url("../../assets/img/playbar.png") no-repeat -110px -130px;
+        cursor: pointer;
+      }
+    }
+    .play {
+      width: 49px + 581px;
+      height: 100%;
+      display: flex;
+      .mask {
+        width: 34px;
+        height: 100%;
+        margin-right: 15px;
+        .imageplay {
+          width: 34px;
+          height: 35px;
+          margin-top: 10px;
+          position: relative;
+          .pos-bar {
+            width: 100%;
+            height: 100%;
+            background: red;
+            position: absolute;
+            top: 0;
+            background: url("../../assets/img/playbar.png") no-repeat 0 -80px;
+            cursor: pointer;
+          }
+          img {
+            width: 100%;
+          }
+        }
+      }
+      .progressbar {
+        width: 49px + 581px - 34px - 15px;
+        height: 100%;
+        .artist-song {
+          width: 49px + 581px - 34px - 15px;
+          height: 28px;
+          display: flex;
+          line-height: 28px;
+          :first-child {
+            font-size: 12px;
+            color: white;
+          }
+          :last-child {
+            color: #9b9b9b;
+            font-size: 12px;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            margin-left: 15px;
+          }
+        }
+        .gressbar {
+          width: 49px + 581px - 34px - 15px;
+          height: 53px - 28px;
+          display: flex;
+          .ant-slider-rail,
+          .ant-slider-step {
+            width: 465px;
+            height: 9px;
+            bottom: 2px;
+            background: url("../../assets/img/statbar.png") no-repeat right -30px;
+            z-index: 0;
+          }
+          .ant-slider-track {
+            top: 1px;
+            height: 9px;
+            background: url("../../assets/img/statbar.png") no-repeat left -66px;
+            z-index: 1;
+          }
+          .ant-slider {
+            margin-top: 3px;
+          }
+          .ant-tooltip-inner,
+          .ant-tooltip-content {
+            display: none;
+          }
+          .ant-slider,
+          .slider-bar {
+            width: 465px;
+          }
+          .ant-slider-handle {
+            top: 3px;
+            z-index: 2;
+          }
+          .time-song {
+            span {
+              font-size: 12px;
+              color: #797979;
+            }
+            :first-child {
+              color: #a1a1a1;
+            }
+          }
+        }
+      }
+    }
+    .oper {
+      width: 87px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      div {
+        width: 25px;
+        height: 25px;
+        margin-right: 2px;
+        cursor: pointer;
+      }
+      :first-child {
+        background: url("../../assets/img/DLVI.png") no-repeat 0 0;
+      }
+      :first-child:hover {
+        background: url("../../assets/img/DLVI.png") no-repeat 0 -25px;
+      }
+      :nth-child(2) {
+        background: url("../../assets/img/playbar.png") no-repeat -88px -163px;
+      }
+      :nth-child(2):hover {
+        background: url("../../assets/img/playbar.png") no-repeat -88px -189px;
+      }
+      :last-child {
+        background: url("../../assets/img/playbar.png") no-repeat -114px -163px;
+      }
+      :last-child:hover {
+        background: url("../../assets/img/playbar.png") no-repeat -114px -189px;
+      }
+    }
+    .playlist-display {
+      position: absolute;
+      width: 986px;
+      height: 301px;
+      left: 0;
+      bottom: 53px;
+      display: none;
+    }
+  }
+}
